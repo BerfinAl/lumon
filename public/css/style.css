@@ -1,0 +1,71 @@
+body {
+    background-color: #edf2f4;
+    margin: 0;
+}
+
+#mainNavBar {
+    font-size: 1.3rem;
+}
+
+nav.scrolled {
+    background: #bdd9bf;
+    transition: background 500ms;
+}
+
+.nav-link {
+    color: #003049;
+}
+
+footer {
+    background-color: #003049;
+}
+
+.nav-link:hover {
+    font-size: 1.4rem;
+    color: #669BBC
+}
+
+.title, #employeeName {
+    color: #d62828;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#employee {
+    color: #003049;
+    text-decoration: none;
+}
+
+#card:hover {
+    box-shadow: 0 0.5em 0.5em -0.4px #669BBC;
+    transform: scale(1.1) translateY(-0.25em);
+    color: #669BBC;
+}
+
+#new-employee-form {
+    margin-top: 20px;
+}
+
+.wrapper {
+    margin-top: 80px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+form {
+    display: inline;
+}
