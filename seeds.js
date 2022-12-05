@@ -652,8 +652,8 @@ let employees = [
 ];
 
 const seedDB = async () => {
-    Employee.deleteMany({});
-    Employee.insertMany(employees)
+    await Employee.deleteMany({});
+    await Employee.insertMany(employees)
         .then(res => {
             console.log(res)
         })
